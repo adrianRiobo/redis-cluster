@@ -1,0 +1,10 @@
+version: "3.3"
+
+services:
+  redis-controller:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: adrianriobo/redis-cluster-initializer:4.0.2
+    
+
