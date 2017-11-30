@@ -1,8 +1,8 @@
-## redis-cluster-docker
+# redis-cluster-docker
 
 [![Docker Pulls](https://img.shields.io/docker/pulls/adrianriobo/redis-cluster.svg?style=flat-square)]()
 
-# What does this solution provide
+## What does this solution provide
 
 This is an implementation of a redis cluster in a dockerized environment. This project aims to solve some limitations with redis cluster in docker swarm environment
 
@@ -17,14 +17,14 @@ This is a first approach to a real scalable architecture.
 
 All nodes are fixed in the compose and scale up need some manual intervention. In future work, I will evolve to automate all the cluster management.
 
-# Current images
+## Current images
 
 This project will generate two images:
 
 * [adrianriobo/redis-cluster](https://hub.docker.com/r/adrianriobo/redis-cluster/) 
 * [adrianriobo/redis-cluster-initializer](https://hub.docker.com/r/adrianriobo/redis-cluster-initializer/) 
 
-# Versions
+## Versions
 
 Actual versions for redis are:
 
