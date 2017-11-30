@@ -1,4 +1,7 @@
 # redis-cluster-docker
+
+[![Docker Pulls](https://img.shields.io/docker/pulls/adrianriobo/redis-cluster.svg?style=flat-square)]()
+
 This is an implementation of a redis cluster in a dockerized environment.
 
 At the moment there are some limitations due to:
