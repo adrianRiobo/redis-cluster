@@ -32,7 +32,7 @@ Actual versions for redis are:
 
 ## Utils
 
-[This project](https://github.com/adrianRiobo/redis-cluster) provide utils to manage the cluster:
+Clone [this project](https://github.com/adrianRiobo/redis-cluster) and use:
 
 * **/utils/create-network.sh** Create an overlay network for redis cluster. Expand or use with your solution network
 
