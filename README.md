@@ -30,4 +30,17 @@ Actual versions for redis are:
 
 * 4.0.2
 
+## Utils
+
+[This project](https://github.com/adrianRiobo/redis-cluster) provide utils to manage the cluster:
+
+* **/utils/create-network.sh** Create an overlay network for redis cluster. Expand or use with your solution network
+
+* **/utils/run-redis.sh** Create redis stack, default network redis-net. Expand or use with your solution network
+
+* **/utils/initialize-cluster.sh** Launch after redis nodes are up. Helper container to create cluster, default network redis-net. Expand or use with your solution network
+
+
+
+
 
